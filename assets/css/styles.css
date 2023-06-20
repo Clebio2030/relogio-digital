@@ -1,0 +1,119 @@
+    /* Configurações Gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    font-size: 62.5%;}
+
+    /* Configurações Gerais */
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #1B1D26, #D9D9D9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20rem;
+    width: 60rem;
+    background: transparent;
+}
+
+.relogio div {
+    height: 17rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: transparent;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(248, 248, 248);
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+body {
+    flex-direction: column;
+}
+
+/* Nome Relógio Digital */
+
+.title {
+    color:white;
+    font-size: 20px;
+    text-shadow:  1px 0px 2px #D9042B;
+    margin-bottom: 50px;
+    width: 25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(19), bliking 0.5s infinite step-end backwards;
+}
+
+/* Nome Relógio Digital */
+
+
+
+
+/* Animação de digitação */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes bliking {
+    50%{
+        border-color:transparent ;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .relogio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 10rem;
+        
+    }
+}
+
+/* Animação de digitação */
+
+
+
+
+/* Ao passar o mouse */
+
+span:hover {
+    color: black;
+}
+
+h1:hover {
+    color: black;
+    text-shadow: none;
+}
+.tempo {
+    color: #BFBCBA;
+    scale: 50%;
+}
+
+/* Ao passar o mouse */
