@@ -56,13 +56,14 @@ body {
 
 .title {
     color:white;
-    font-size: 20px;
-    text-shadow:  1px 0px 2px #D9042B;
+    font-size: 15px;
+    text-shadow:  1px 1px 1px #000000;
     margin-bottom: 50px;
     width: 25ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(19), bliking 0.5s infinite step-end backwards;
+   text-decoration-style: dotted;
 }
 
 /* Nome Relógio Digital */
