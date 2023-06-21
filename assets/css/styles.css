@@ -94,6 +94,10 @@ body {
         margin-top: 10rem;
         
     }
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }
 
 /* Animação de digitação */
